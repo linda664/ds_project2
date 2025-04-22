@@ -15,17 +15,6 @@ data_initial <- read.csv("carseats_full.csv", header = T)
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   tags$head(
-    HTML("
-    <!-- Google tag (gtag.js) -->
-    <script async src='https://www.googletagmanager.com/gtag/js?id=G-M5EDYBWL8E'></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-M5EDYBWL8E');
-    </script>
-    "),
-    
     tags$style(HTML("
       #shiny-notification-panel {
         position: fixed; /* Override the default positioning */
