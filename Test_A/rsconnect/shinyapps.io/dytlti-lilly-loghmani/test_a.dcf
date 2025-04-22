@@ -1,0 +1,12 @@
+name: test_a
+title:
+username: dytlti-lilly-loghmani
+account: dytlti-lilly-loghmani
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14577692
+bundleId: 10155701
+url: https://dytlti-lilly-loghmani.shinyapps.io/test_a/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
